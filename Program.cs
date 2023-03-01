@@ -6,7 +6,10 @@
         {
             Console.WriteLine("Welcome to Master Branch of DS-Algo Problems");
 
-            Bubblesort sort = new  Bubblesort();
+            //Bubblesort sort = new  Bubblesort();
+            //sort.Display();
+
+            Insertionsort sort = new Insertionsort();
             sort.Display();
         }
     }
