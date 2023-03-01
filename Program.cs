@@ -1,4 +1,6 @@
-﻿namespace DSandAlgorithmProblems
+﻿using System;
+
+namespace DSandAlgorithmProblems
 {
     class Program
     {
@@ -12,12 +14,15 @@
             //Insertionsort sort = new Insertionsort();
             //sort.Display();
 
-            int[] arr = { 510, 7, 501, 11, 101 };
-            Console.WriteLine("Array before sorting:");
-            Mergesort.PrintArray(arr);
-            Mergesort.MergeSort(arr, 0, arr.Length - 1);
-            Console.WriteLine("\nArray after sorting:");
-            Mergesort.PrintArray(arr);
+            //int[] arr = { 510, 7, 501, 11, 101 };
+            //Console.WriteLine("Array before sorting:");
+            //Mergesort.PrintArray(arr);
+            //Mergesort.MergeSort(arr, 0, arr.Length - 1);
+            //Console.WriteLine("\nArray after sorting:");
+            //Mergesort.PrintArray(arr);
+
+             Anagrams anagm = new Anagrams();
+            anagm.Display();
         }
     }
 }
